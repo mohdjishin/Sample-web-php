@@ -17,7 +17,7 @@ if(mysqli_query($connection,$insrtqry)){
     echo "Inserted Successfully";
 
 }else{
-    echo "  <br> insert failed";
+    echo "  <br> Failed";
 
 }
 
